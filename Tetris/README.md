@@ -17,6 +17,13 @@ Version 1.
 - Build (make)
 - Run Tetris executable
 
+### Commands
+
+- Left Arrow: Move the Tetrimino piece one position to the left.
+- Right Arrow: Move the Tetrimino piece one position to the right.
+- Down Arrow: Increase the downward speed of the Tetrimino piece, causing it to fall faster.
+- Up Arrow: Rotate the Tetrimino piece clockwise.
+
 ### Example
 
 
