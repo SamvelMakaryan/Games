@@ -11,5 +11,6 @@ const constexpr int height = 20;
 const constexpr int width = 10;
 
 bool check(std::array<std::array<int, width>, height>, std::array<Point, 4>);
+bool game_over(std::array<Point, 4>);
 
 #endif //CHECK_HPP_
