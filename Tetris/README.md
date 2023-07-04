@@ -26,5 +26,6 @@ Version 1.
 
 ### Example
 
+![Screenshot from 2023-07-05 01-09-19](https://github.com/SamvelMakaryan/Games/assets/123547362/9935c342-049d-4e28-ac9a-ad91c330338d)
 
 
