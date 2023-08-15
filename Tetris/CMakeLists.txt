@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 project(Tetris)
 
 set(SOURCES
-    tetris.cpp
-    check.cpp
+    src/tetris.cpp
+    src/check.cpp
 )
 
 add_executable(Tetris ${SOURCES})

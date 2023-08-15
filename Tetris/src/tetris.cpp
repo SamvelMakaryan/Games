@@ -24,9 +24,9 @@ int main() {
 	sf::Texture cubesTexture;
 	sf::Texture backgroundTexture;
 	sf::Texture frameTexture;
-	cubesImage.loadFromFile("images/cubes.png");
-	backgroundImage.loadFromFile("images/background.png");
-	frameImage.loadFromFile("images/frame.png");
+	cubesImage.loadFromFile("../images/cubes.png");
+	backgroundImage.loadFromFile("../images/background.png");
+	frameImage.loadFromFile("../images/frame.png");
 	cubesTexture.loadFromImage(cubesImage);
 	backgroundTexture.loadFromImage(backgroundImage);
 	frameTexture.loadFromImage(frameImage);

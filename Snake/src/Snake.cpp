@@ -5,8 +5,8 @@ int main() {
     sf::Texture redTexture;
     sf::Texture backgroundTexture;
     sf::Texture questionTexture;
-    redTexture.loadFromFile("images/red.png");
-    questionTexture.loadFromFile("images/background.png");
+    redTexture.loadFromFile("../images/red.png");
+    questionTexture.loadFromFile("../images/background.png");
     sf::Sprite questionSprite(questionTexture);
     std::string backgroundColor;
     while (true) {
@@ -17,10 +17,10 @@ int main() {
             }
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-            backgroundColor = "images/white.png";
+            backgroundColor = "../images/white.png";
             break;
         } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-            backgroundColor = "images/green.png";
+            backgroundColor = "../images/green.png";
             break;
         }
         window.clear();
